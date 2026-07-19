@@ -6,9 +6,9 @@ default:
 build:
     dotnet build
 
-# Lox を実行 (例: just run script.lox)
+# EZlang を実行 (例: just run script.ez)
 run *args:
-    dotnet run --project src/Lox -- {{args}}
+    dotnet run --project src/EZlang -- {{args}}
 
 # テストを実行 (テストプロジェクト追加後に有効)
 test:
